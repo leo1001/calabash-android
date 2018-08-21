@@ -1,3 +1,21 @@
+### 0.9.5
+
+Align the gem and server version to 0.9.5
+
+* Add TestServer.apk and AndroidManifest to git index
+
+### 0.9.4
+
+* Updated screenshot tool which compiled with java 8. #875
+
+### 0.9.3
+
+Added support for Android P (api 28) devices.
+
+* Changed build process for server: added gradle build instead of ant.
+* Removed the use of blacklisted api for latest android versions.
+* Clean-up android server from external libs.
+
 ### 0.9.2
 
 The test server bundled with this gem has the following properties:
